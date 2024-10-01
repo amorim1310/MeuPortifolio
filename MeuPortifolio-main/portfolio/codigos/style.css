@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(102, 109, 131);
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+.conteudo_principal{
+    min-height: 100vh;
+    text-align: center;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    background: white;
+    
+
+}
+summary{
+
+    width: 100%;
+    background-color: #af4c4c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;   
+
+}
+summary:hover{
+background-color: #c65c5c; 
+}
+#meuera{font-size: 15px;}
